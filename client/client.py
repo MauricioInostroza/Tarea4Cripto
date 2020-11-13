@@ -41,12 +41,12 @@ with open(hashfile) as f:
             break
 
 
-######
+#######
 opt = input("Enter a [0] to finish: ")
 if (opt == 0):
     s.send('-------------------------end------------------------')
     print('Data Sent to Server')
     s.close()
-######
+#######
 
 print('Data Sent to Server')
